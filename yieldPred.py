@@ -16,7 +16,7 @@ st.markdown(original_title, unsafe_allow_html=True)
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://github.com/JaidevSK/Smart-Farming-New-Website/blob/main/Background%20Image.jpg?raw=true");
+    background-image: url("https://t4.ftcdn.net/jpg/02/45/01/05/360_F_245010571_PSsX83B2XGY8IrXyoJYJgreabisn4tUJ.jpg");
     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;  
     background-repeat: no-repeat;
