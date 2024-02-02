@@ -5,17 +5,6 @@ import streamlit as st
 original_title = '''<h1 style="font-family: arial; text-align: center;">Project Smart Farming</h1>
 <h2 style="font-family: arial; text-align: center;">AI Chat Bot for Cotton Farming</h2>'''
 st.markdown(original_title, unsafe_allow_html=True)
-background_image = """
-<style>
-[data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://github.com/JaidevSK/Smart-Farming-New-Website/blob/main/Background%20Image.jpg?raw=true");
-    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
-    background-position: center;  
-    background-repeat: no-repeat;
-}
-</style>
-"""
-st.markdown(background_image, unsafe_allow_html=True)
 
 import openai
 from streamlit_chat import message
@@ -32,18 +21,17 @@ def api_calling(prompt):
 	message = completions.choices[0].text
 	return message
 
-container = st.container(border=True)
 if 'user_input' not in st.session_state:
-	container.session_state['user_input'] = []
+	st.session_state['user_input'] = []
 
 if 'openai_response' not in st.session_state:
-	container.session_state['openai_response'] = []
+	st.session_state['openai_response'] = []
 
-apikey = container.text_input(value="Enter Your API Key")
+apikey = st.text_input(value="Enter Your API Key")
 openai.api_key = apikey
 
 def get_text():
-	input_text = container.text_input("How can I help you?", key="input")
+	input_text = st.text_input("How can I help you?", key="input")
 	return input_text
 
 user_input = get_text()
@@ -53,12 +41,12 @@ if user_input:
 	output = output.lstrip("\n")
 
 	# Store the output
-	container.session_state.openai_response.append(user_input)
-	container.session_state.user_input.append(output)
+	st.session_state.openai_response.append(user_input)
+	st.session_state.user_input.append(output)
 
 message_history = st.empty()
 
-if container.session_state['user_input']:
+if st.session_state['user_input']:
 	for i in range(len(st.session_state['user_input']) - 1, -1, -1):
 		# This function displays user input
 		message(st.session_state["user_input"][i], 
