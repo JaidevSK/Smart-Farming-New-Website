@@ -27,7 +27,7 @@ if 'user_input' not in st.session_state:
 if 'openai_response' not in st.session_state:
 	st.session_state['openai_response'] = []
 
-apikey = st.text_input(value="Enter Your API Key")
+apikey = st.text_input("Enter Your API Key")
 openai.api_key = apikey
 
 def get_text():
