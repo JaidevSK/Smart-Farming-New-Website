@@ -16,7 +16,7 @@ st.markdown(original_title, unsafe_allow_html=True)
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://t4.ftcdn.net/jpg/02/45/01/05/360_F_245010571_PSsX83B2XGY8IrXyoJYJgreabisn4tUJ.jpg");
+    background-image: url("https://media.istockphoto.com/id/1147789319/photo/flowers-composition-eucalyptus-leaves-and-cotton-flowers-on-pastel-gray-background-flat-lay.webp?b=1&s=170667a&w=0&k=20&c=P-DQCiiOBA3ka32xNifm7RGVuapb0IStzyrNHBX-_SY=");
     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;  
     background-repeat: no-repeat;
