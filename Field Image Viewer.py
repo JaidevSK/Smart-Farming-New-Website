@@ -21,17 +21,6 @@ st.set_page_config(
 original_title = '''<h1 style="font-family: arial; text-align: center;">Project Smart Farming</h1>
 <h2 style="font-family: arial; text-align: center;">Field Image Viewer</h2>'''
 st.markdown(original_title, unsafe_allow_html=True)
-background_image = """
-<style>
-[data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://github.com//JaidevSK//Smart-Farming-New-Website//blob//main//soil_image.jpg");
-    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
-    background-position: center;  
-    background-repeat: no-repeat;
-}
-</style>
-"""
-st.markdown(background_image, unsafe_allow_html=True)
 
 f_5m=PIL.Image.open("img5m.jpg")
 f_30m=PIL.Image.open("img30m.jpg")
