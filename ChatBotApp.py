@@ -9,6 +9,21 @@ st.markdown(original_title, unsafe_allow_html=True)
 import openai
 from streamlit_chat import message
 
+
+background_image = """
+<style>
+[data-testid="stAppViewContainer"] > .main {
+    background-image: url("https://img.freepik.com/free-vector/ai-technology-brain-background-vector-digital-transformation-concept_53876-117820.jpg");
+    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+</style>
+"""
+
+st.markdown(background_image, unsafe_allow_html=True)
+
+
 def api_calling(prompt):
 	completions = openai.Completion.create(
 		engine="text-davinci-003",
