@@ -20,7 +20,7 @@ st.set_page_config(
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDcnscXrxCk0LULrTegZGagT0t-dPiiMOq9eIaBKYYH4Hb0ayqNQSSGMyVKzwex-jPS3U&usqp=CAU");
+    background-image: url("https://motionarray.imgix.net/preview-1543530-kJpiGEZoMIHPGq9U-small.jpg?w=660&q=60&fit=max&auto=format");
     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;  
     background-repeat: no-repeat;
