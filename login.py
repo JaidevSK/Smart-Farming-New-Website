@@ -19,7 +19,7 @@ p=st.text_input("", value="Enter your Password")
 if st.button("Submit"):
     if u=="username" and p=="password":
         st.markdown(success, unsafe_allow_html=True)
-        st.link_button("Go to Main Page", "https://project-smart-farming-vefkkxyjh72zcdmf4pgzbs.streamlit.app/")
+        st.link_button("Go to Main Page", "https://smart-farming-new-website-5fq6gxmptymgxztjevghhq.streamlit.app/")
     else:
         st.markdown(warn, unsafe_allow_html=True)
         
