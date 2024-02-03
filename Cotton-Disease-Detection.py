@@ -17,6 +17,19 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+background_image = """
+<style>
+[data-testid="stAppViewContainer"] > .main {
+    background-image: url("https://m.media-amazon.com/images/I/61WWhptbnEL._AC_UF1000,1000_QL80_.jpg");
+    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+</style>
+"""
+
+st.markdown(background_image, unsafe_allow_html=True)
+
 # Main page heading
 st.markdown("<h1 style='text-align: center;'>Cotton Disease and Pest Detection</h1>", unsafe_allow_html=True)
 
