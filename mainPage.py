@@ -11,7 +11,7 @@ import streamlit as st
 
 original_title = '''<h1 style="font-family: arial; text-align: center;">Project Smart Farming</h1>
 <h2 style="font-family: arial; text-align: center;">Main Page</h2>
-<p style="font-family: arial; text-align: center;   background-color: white;border-style: rounded;">This page containes links to all the other pages</p>'''
+<p style="font-family: arial; text-align: center;   background-color: white;border-style: rounded;">This page contains links to all the other pages</p>'''
 st.markdown(original_title, unsafe_allow_html=True)
 background_image = """
 <style>
