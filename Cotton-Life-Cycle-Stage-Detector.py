@@ -20,7 +20,7 @@ st.set_page_config(
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://motionarray.imgix.net/preview-1543530-kJpiGEZoMIHPGq9U-small.jpg?w=660&q=60&fit=max&auto=format");
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/890/835/large_2x/delicate-white-fluffy-cotton-flowers-on-pastel-blue-paper-background-top-view-natural-organic-fiber-raw-materials-for-making-fabric-studio-free-photo.jpg");
     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;  
     background-repeat: no-repeat;
