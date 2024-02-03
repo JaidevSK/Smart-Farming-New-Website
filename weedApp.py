@@ -21,7 +21,7 @@ st.set_page_config(
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/029/468/181/small/ai-generated-ai-generative-green-fresh-grass-field-meadow-with-blue-sky-horizon-background-mock-up-inspirational-wild-outdoor-nature-graphic-art-photo.jpg");
+    background-image: url("https://pics.freeartbackgrounds.com/4k/idownload-image.php?file=Field_Landscape_Background-206.jpg");
     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;  
     background-repeat: no-repeat;
