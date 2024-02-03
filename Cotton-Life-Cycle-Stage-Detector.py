@@ -17,6 +17,19 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+background_image = """
+<style>
+[data-testid="stAppViewContainer"] > .main {
+    background-image: url("https://i0.wp.com/www.figandbloom.com/wp-content/uploads/2017/10/Depositphotos_10212026_l-2015.jpg?fit=1024%2C680&ssl=1");
+    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+</style>
+"""
+
+st.markdown(background_image, unsafe_allow_html=True)
+
 # Main page heading
 st.markdown("<h1 style='text-align: center;'>Cotton Life Cycle Stage Detector</h1>", unsafe_allow_html=True)
 # Sidebar
