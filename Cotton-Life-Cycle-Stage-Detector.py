@@ -20,7 +20,7 @@ st.set_page_config(
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://i0.wp.com/www.figandbloom.com/wp-content/uploads/2017/10/Depositphotos_10212026_l-2015.jpg?fit=1024%2C680&ssl=1");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDcnscXrxCk0LULrTegZGagT0t-dPiiMOq9eIaBKYYH4Hb0ayqNQSSGMyVKzwex-jPS3U&usqp=CAU");
     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;  
     background-repeat: no-repeat;
