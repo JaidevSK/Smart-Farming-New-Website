@@ -17,6 +17,21 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+
+background_image = """
+<style>
+[data-testid="stAppViewContainer"] > .main {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/029/468/181/small/ai-generated-ai-generative-green-fresh-grass-field-meadow-with-blue-sky-horizon-background-mock-up-inspirational-wild-outdoor-nature-graphic-art-photo.jpg");
+    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+</style>
+"""
+
+st.markdown(background_image, unsafe_allow_html=True)
+
+
 # Main page heading
 st.title("Weed Type Detection Detection using YOLOv8")
 
