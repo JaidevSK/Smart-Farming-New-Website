@@ -13,7 +13,7 @@ from streamlit_chat import message
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/016/071/138/original/robot-technology-copy-space-background-vector.jpg");
+    background-image: url("https://i.pinimg.com/originals/ea/78/11/ea7811f16fa403dd0a6f157fc61494d5.jpg");
     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;  
     background-repeat: no-repeat;
