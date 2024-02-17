@@ -14,11 +14,16 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.write("Page will be setup soon!")
 
-w_highreso=PIL.Image.open("images//weed_density3.png")
-w_medreso=PIL.Image.open("images//weed_density1_1.png")
-w_lowreso=PIL.Image.open("images//weed_density3_1.png")
+
+
+# Main page heading
+st.markdown("<h1 style='text-align: center;'>Weed Density Visualiser</h1>", unsafe_allow_html=True)
+
+
+w_highreso=PIL.Image.open("weed_density3.png")
+w_medreso=PIL.Image.open("weed_density1_1.png")
+w_lowreso=PIL.Image.open("weed_density3_1.png")
 
 st.header("Weed Density Analysis")
 st.write("Provides the visualisation of weed density in the field with heatmaps captured with various resolutions as well as 3D visualisation of weed distribution")
@@ -43,3 +48,6 @@ elif Type  == "3D":
                       scene_aspectratio=dict(x=1, y=1, z=.1))
     fig.update_traces(contours_z=dict(show=True, usecolormap=True, highlightcolor="limegreen", project_z=True))
     st.plotly_chart(fig)
+
+st.write("The code for this will be found  in the OneDrive Folder")
+
